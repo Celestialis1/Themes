@@ -1,10 +1,13 @@
 
-# FVUI
+# FVUI Rework
 
 ## Blur is the new black
 
 
 ## Releases
+
+
+### offical Releases
    [WebSite](https://feorev.github.io/) (Soon)
  - [Discord](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Chrome](https://github.com/FeoreV/Themes/releases/tag/chrome) 
