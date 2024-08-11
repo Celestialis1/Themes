@@ -19,6 +19,7 @@
 	--color2:255,255,255;
 	--color3:35,120,200;
 	--color4:63,43,150;
+    --color5:218,0,35,255;
 	--text1:174,174,174;
 	--text2:107,107,107;
 }
@@ -27,6 +28,7 @@
 	--color02:rgb(var(--color2));
 	--color03:rgb(var(--color3));
 	--color04:rgb(var(--color4));
+    --color05:rgb(var(--color5));
 	--ColorOpacity:1;
 	--DisableOpacity:0;
 	--opacity01:rgba(var(--color1),calc(var(--ColorOpacity)*0.9*(1 - var(--DisableOpacity)) + var(--DisableOpacity)));
@@ -192,7 +194,7 @@ button,.selected_d808b0,.focused_d90b3d,.button_adcaac {
 }
 button:not([disabled]):active {
 	transform:scale(0.95);
-	transition:transform 0.3s;
+	transition:transform 0.4s;
 }
 input {
 	text-align:center;
@@ -244,15 +246,15 @@ html {
 position:absolute;
 	text-align:center;
 	width:100%;
-	color:var(--color03);
-	font-size:16px;
+	color:var(--color04);
+	font-size:15px;
 	font-weight:900;
-	text-shadow:0 0 10px currentColor;
+	text-shadow:0 0 15px currentColor;
 	&::before {
-	content:"Flow";
+	content:"Vanguard Discord client v0.0.2";
 }
 }:root {
-	--Flow:"Flow";
+	--Flow:"Vanguard Discord client";
 	--version:"Beta 0.0.1b"
 }
 .disabledPointerEvents_cd0de5 {
@@ -954,7 +956,7 @@ position:absolute;
 	border-radius:0!important;
 	min-width:100%;
 	padding-top:2px;
-    padding-left: 16px;
+    padding-left: 10px;
 	padding-bottom:1px;
 }
 [aria-expanded="true"] > .layout_d808b0 {
